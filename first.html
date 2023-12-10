@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>seceform</title>
+    </head>
+    <body>
+        <p>SECE Student Enrollment Form</p>
+        <form action="process.php" method="post">
+            <label for="Salution">Salution</label>
+            <select id="Salution" name="Salution">
+                <option selected disabled>--None--</option>
+                <option value="Selvan">Selvan</option>
+                <option value="Selvi">Selvi</option>
+            </select><br><br>
+            <label for="First Name">First Name:</label>
+            <input type="text" id="First Name" name="First Name:" required autofocus><br><br>
+
+            <label for="Last Name">Last Name:</label>
+            <input type="text" id="Last Name" name="Last Name:" required autofocus><br><br>
+
+            <label for="Select Department">Select Department</label>
+            <select id="Select Department" name="Select Department">
+                <option selected disabled>--None--</option>
+                <option value="CSE">CSE</option>
+                <option value="CSE(AIML)">CSE(AIML)</option>
+                <option value="EEE">EEE</option>
+                <option value="ECE">ECE</option>
+                <option value="MECH">MECH</option>
+                <option value="AIDS">AIDS</option>
+            </select><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="Email:" required><br><br>
+
+            <label for="address">Address:</label>
+            <textarea="address" id="address" name="address" rows="5"></textarea><br><br>
+
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+        </form>
+    </body>
+</html>
